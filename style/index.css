@@ -1,0 +1,175 @@
+*,
+body, html{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../style/The Galaxy.jpeg");
+  opacity: 0.8;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#image{
+  width: 400px;
+  height:300px;
+  opacity: 0.5;
+}
+#head{
+  margin-top: 20px;
+  flex-direction: column;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+h1{
+  font-size: 40px;
+  color: white;
+}
+#secondHeading{
+  font-size: 20px;
+  color: white;
+}
+#nav{
+  padding-right: 15px;
+  margin-top: 20px;
+  align-content: center;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+  border: 0.6px white solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#firstly{
+  border-left: 0px white solid;
+}
+.contents{
+  height: 30px;
+  padding-top: 5px;
+  font-size: 20px;
+  padding-right: 5px;
+  padding-left: 20px;
+  opacity: 0.5;
+  
+  border-left: 0.6px white solid;
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  color: white
+}
+.heroes{
+  font-size: 40px;
+  font-family:Impact;
+  opacity: 0.8;
+  margin-top: 14px;
+ display: flex;
+  justify-content: center;
+  color: goldenrod;
+}
+#inpt{
+  border-radius: 7px;
+  opacity: 0.5;
+  padding-left: 10px;
+  margin-left: 925px;
+  align-content: right;
+  width: 500px;
+  height: 20px;
+}
+.imgz{
+  opacity: 0.8;
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+}
+#container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.picz{
+  margin-top: 20px;
+  margin-bottom: 20px;;
+  display: flex;
+ flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.picz:hover{
+  visibility: visible;
+  opacity: 0.9;
+}
+.picz{
+  transition: visibility 1s, opacity 0.7s step-start;
+}
+.delBtn{
+  transition-duration: 0.5;
+  margin-top: 20px;;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  background-color: maroon;
+  font-family:Impact;
+  height: 50px;
+}
+.btn{
+  transition-duration: 0.5;
+  margin-top: 20px;;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  border-radius: 10px;
+  color: goldenrod;
+  background-color: #092B4D;
+  font-family:Impact;
+  height: 50px;
+}
+.display{
+  background-color: #092B4D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180px;
+  margin-top: 30px;
+  border-radius: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  color: goldenrod;
+  font-size: 20px;
+  padding-bottom:20px;
+}
+.main{
+  background-color: #092B4D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180px;
+  margin-top: 30px;
+  border-radius: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  color: goldenrod;
+  font-size: 20px;
+}
+.undisplay{
+ 
+  display: none;
+}
+#searchBar{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
